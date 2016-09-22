@@ -8,25 +8,19 @@ import java.util.Date;
 @Data
 public class Exif {
 
-    @Field("datetime_original")
     private Date datetimeOriginal;
 
-    @Field("exposure_time")
     private String exposureTime;
 
     private String aperture;
 
-    @Field("focal_length")
     private String focalLength;
 
-    @Field("color_space")
     private String colorSpace;
 
-    @Field("pixel_x_dimension")
-    private double pixelXDimension;
+    private double xResolution;
 
-    @Field("pixel_y_dimension")
-    private double pixelYDimension;
+    private double yResolution;
 
     private int width;
 
